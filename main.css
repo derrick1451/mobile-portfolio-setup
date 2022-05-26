@@ -18,13 +18,15 @@ body {
   height: 718px;
   border-radius: 20px;
 }
+
 .nav-bar a {
   display: flex;
   text-decoration: none;
   justify-content: space-between;
   align-items: center;
-  padding: 20px ;
+  padding: 20px;
 }
+
 .logo {
   width: 76px;
   height: 20px;
