@@ -1,32 +1,34 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# MY Portfolio
+# Portfolio Setup And Mobile Version Skeleton
+
+> this is the mobile version of my portfolio website
 
 
 ## Built With
 
-- HTML and CSS
-- Webhint
-- Styelint
-
-<!-- ## Live Demo (if available)q
-
-[Live Demo Link](https://livedemo.com) -->
+- HTML
+- CSS
+- Vs code
 
 
-<!-- ## Getting Started
+## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.** -->
+To get a local copy up and running follow these simple example steps.
+
+
+### Setup
+clone this repository
+$ git clone git@github.com:derrick1451/mobile-portfolio-setup.git
+$ cd mobile-portfolio-setup
 
 ## Authors
 
-👤 **DERRICK**
+👤 **Author1**
 
 - GitHub: [@githubhandle](https://github.com/derrick1451)
-- Twitter: [@twitterhandle](https://twitter.com/derrickayle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/okongoderrick)
-
+- Twitter: [@twitterhandle](https://twitter.com/derrickHayle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/okongo-derrick-a0147622b/)
 
 ## 🤝 Contributing
 
@@ -44,4 +46,6 @@ Give a ⭐️ if you like this project!
 - Inspiration
 - etc
 
+## 📝 License
 
+This project is [MIT](./MIT.md) licensed.
