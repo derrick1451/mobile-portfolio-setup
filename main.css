@@ -98,3 +98,149 @@ body {
 .thumbs-up {
   width: 18px;
 }
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  gap: 30px;
+}
+
+.work {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dfe1e6;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  text-align: left;
+}
+
+.work-image {
+  padding: 16px;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: 'Poppins', sans-serif;
+  line-height: 44px;
+  color: #172b4d;
+  width: 180px;
+  margin-right: 120px;
+}
+
+.work-flow {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  height: 40px;
+  margin-right: 40px;
+}
+
+.canopy {
+  height: 16px;
+  width: 55px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 600;
+  font-style: normal;
+  color: #344563;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background-color: #c1c7d0;
+  border-radius: 50%;
+}
+
+.back-end {
+  color: #7a869a;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 600;
+  font-style: normal;
+  width: 88px;
+  height: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.year {
+  color: #7a869a;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 600;
+  font-style: normal;
+  width: 29px;
+  height: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.paragraph {
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #344563;
+  width: 295px;
+  height: 76px;
+  margin: 12px 0;
+}
+
+.skills {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  font-size: 12px;
+  align-items: center;
+  margin: 0 8px;
+  gap: 11px;
+  height: 30px;
+  width: 200px;
+  margin-right: 100px;
+}
+
+.skills li {
+  background: #ebebff;
+  border-radius: 10px;
+  color: #6070ff;
+  font-size: 12px;
+  border: 1px solid #ebebff;
+  padding: 4px 12px;
+}
+
+.project-button {
+  border: 1px solid #396df2;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  font-family: 'Poppins', sans-serif;
+  color: #396df2;
+  width: 120px;
+  height: 50px;
+  font-style: normal;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-right: 160px;
+}
+
+.project-button:hover {
+  background: #6070ff;
+  color: #fff;
+}
+
+.project-button:active {
+  background: #2230d2;
+  color: #fff;
+}
+
+.project-button:disabled {
+  background: #5e6c84;
+}
