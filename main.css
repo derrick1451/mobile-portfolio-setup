@@ -422,3 +422,50 @@ body {
   height: 24px;
   width: 237px;
 }
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+.form-section h4 {
+  /* color: #ffffff; */
+  font-family: poppins, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.form-section p {
+  font-size: 22px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  font-family: poppins, sans-serif;
+  color: #ebebff;
+  margin: 20px 0;
+}
+
+.contact-form li {
+  list-style-type: none;
+}
+
+.contact-form li input {
+  padding: 10px;
+  border-radius: 8px;
+  border: #cfb8bc 1px solid;
+  margin: 10px 0;
+}
+
+.contact-form li button {
+  border: none;
+  padding: 12px 16px;
+  background-color: #ffffff;
+  color: #6070ff;
+  border: #cfb8bc 1px solid;
+  margin: 15px 0;
+  border-radius: 8px;
+}
