@@ -2,7 +2,7 @@
 
 # Portfolio Setup And Mobile Version Skeleton
 
-> this is the mobile version of my portfolio website
+> this is the complete mobile version of my portfolio website with an updated form section
 
 
 ## Built With
@@ -38,7 +38,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Give a ⭐️ if you like this project! thank you!
 
 ## Acknowledgments
 
