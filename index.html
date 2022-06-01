@@ -178,15 +178,27 @@
         </section>
         <section class="form-section">
             <h4>contact me</h4>
-            <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-            <form action="#" method="post">
-                <ul class="contact-form">
-                    <li><input type="text"></li>
-                    <li><input type="email"></li>
-                    <li><textarea name="user-text" id="text" cols="30" rows="10">write your message here </textarea></li>
-                    <li> <button type="submit">Get In Touch</button></li>
+            <p>If you have an application you <br>are interested in developing, a feature that you need built or a project that needs coding. I’d <br>love to help with it </p>
+            <form class="form-container" action="/my-handling-form-page" method="post">
+                <ul>
+                 <li>
+                   <label for="name">name</label>
+                   <input type="text" placeholder="derrick"  max="30" required id="name" name="user_name">
+                 </li>
+                 <li>
+                   <label for="mail">E-mail:</label>
+                   <input type="email" id="mail" placeholder="hayle@gmail.com" required name="user_email">
+                 </li>
+                 <li>
+                   <label for="msg">Message:</label>
+                   <textarea maxlength="500" id="msg"n ame="user_message">Write your message here</textarea>
+                 </li>
+                 <li class="button">
+                    <button type="submit">Get In Touch</button>
+                  </li>
                 </ul>
-            </form>
+               </form>
+               <img class="form-image" src="images/bg-image.png" alt="back-ground">
         </section>
     </div> 
 </body>
