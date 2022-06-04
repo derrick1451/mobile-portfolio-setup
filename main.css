@@ -647,7 +647,7 @@ label {
     display: inline;
     width: 544px;
     padding: 10px;
-    margin-right: 100px;
+    margin-right: 190px;
   }
 
   .reverse {
@@ -953,6 +953,8 @@ label {
     position: relative;
     right: 30px;
     top: 30px;
+    background-color: #4053FC;
+    color: #fff;
   }
 
   .headerz,
