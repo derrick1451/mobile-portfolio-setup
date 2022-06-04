@@ -587,6 +587,10 @@ label {
   .logo {
     margin-left: 90px;
     font-size: 18px;
+    transition: 2s;
+  }
+  .logo:hover {
+    transform: scale(1.2);
   }
 
   .main-section {
@@ -648,6 +652,10 @@ label {
     width: 544px;
     padding: 10px;
     margin-right: 190px;
+    transition: 2s;
+  }
+  .desktop-image:hover {
+    transform: scale(1.1);
   }
 
   .reverse {
