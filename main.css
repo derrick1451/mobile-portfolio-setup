@@ -7,10 +7,6 @@
   font-family: 'Poppins', sans-serif;
 }
 
-body {
-  background-color: #e5e5e5e5;
-}
-
 .wrapper {
   height: 718px;
   border-radius: 20px;
@@ -568,6 +564,10 @@ label {
 }
 
 @media (min-width: 768px) {
+  body {
+    background-color: #e5e5e5e5;
+  }
+
   .nav-bar {
     display: flex;
     justify-content: space-between;
