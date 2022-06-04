@@ -9,13 +9,13 @@
 
 body {
   background-color: #e5e5e5e5;
-  
 }
 
 .wrapper {
   height: 718px;
   border-radius: 20px;
 }
+
 .nav-bar a {
   display: flex;
   text-decoration: none;
@@ -23,6 +23,7 @@ body {
   align-items: center;
   padding: 20px;
 }
+
 .nav-bar ul {
   display: none;
   list-style: none;
@@ -38,8 +39,6 @@ body {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
 }
-
-  
 
 .heading {
   width: 327px;
@@ -84,25 +83,29 @@ body {
   height: 100%;
   width: 100%;
   background-repeat: no-repeat;
-
 }
+
 .desktop-image {
   display: none;
 }
+
 .desktop {
   display: none;
 }
-.desktop-paragraph ,
+
+.desktop-paragraph,
 .facebook,
-.front-end{
+.front-end {
   display: none;
 }
+
 .facebook2,
 .front-end2,
 .desktop-paragraph2,
 .header-facebook {
   display: none;
 }
+
 .headerz,
 .uber,
 .year-1,
@@ -563,24 +566,29 @@ label {
   position: absolute;
   margin-left: 74px;
 }
+
 @media (min-width: 768px) {
   .nav-bar {
     display: flex;
     justify-content: space-between;
-    background-color: #ffffff;
+    background-color: #fff;
   }
+
   .nav-bar img {
     display: none;
   }
+
   .nav-bar ul {
     display: flex;
     list-style: none;
     margin-right: 140px;
   }
+
   .logo {
     margin-left: 90px;
     font-size: 18px;
   }
+
   .main-section {
     background-image: url(/images/desktop-header.png);
     background-repeat: no-repeat;
@@ -588,30 +596,35 @@ label {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ffffff;
+    background-color: #fff;
     border-bottom-left-radius: 90px;
   }
+
   .main-section h1 {
     height: auto;
     width: 900px;
     font-size: 48px;
   }
+
   .main-section p {
     width: 800px;
     height: auto;
     margin-right: 90px;
     margin-top: -5px;
   }
+
   .main-section h3 {
     height: auto;
     padding: 5px;
     font-size: 16px;
     margin-right: 700px;
   }
+
   .nav-links {
     padding: 8px;
-    margin-right:670px;
+    margin-right: 670px;
   }
+
   .projects {
     display: grid;
     grid-template-columns: 80%;
@@ -619,29 +632,35 @@ label {
     max-width: 100%;
     column-gap: 30px;
   }
+
   .work {
     display: flex;
     flex-direction: row;
-    background-color: #ffffff;
+    background-color: #fff;
   }
+
   .lost {
     display: none;
   }
+
   .desktop-image {
     display: inline;
     width: 544px;
     padding: 10px;
     margin-right: 100px;
   }
+
   .reverse {
     flex-direction: row-reverse;
   }
+
   .desktop {
     display: inline;
     width: 500px;
     padding: 15px;
     margin-left: 100px;
   }
+
   .work-section h2 {
     font-size: 40px;
     width: 450px;
@@ -649,7 +668,7 @@ label {
     right: 50px;
     bottom: 15px;
   }
-   
+
   .about-me {
     width: 100%;
     display: grid;
@@ -659,110 +678,128 @@ label {
     margin-top: 10vh;
     border-top-right-radius: 100px;
   }
-  
+
   ul .list-items {
     width: 120px;
     height: 120px;
     display: flex;
     flex-direction: row;
   }
+
   ul .list-items p {
     position: relative;
     top: 40px;
     right: 60px;
   }
+
   .list-items1 {
     position: relative;
     top: 140px;
     right: 100px;
   }
+
   .list-items2 {
     position: relative;
     left: 40px;
     top: 10px;
   }
+
   .list-items3 {
     position: relative;
     left: 170px;
     bottom: 120px;
   }
+
   .language {
     position: relative;
     top: 150px;
     right: 45px;
     font-weight: 500;
   }
+
   .frameworks {
     position: relative;
     right: 45px;
     bottom: 100px;
   }
+
   .line-1 {
     position: relative;
-    bottom:90px;
+    bottom: 90px;
     right: 20px;
   }
+
   .gained-skill {
     position: relative;
     bottom: 90px;
     right: 38px;
   }
+
   .line-2 {
     position: relative;
     bottom: 100px;
     right: 20px;
   }
+
   .form-image {
     display: none;
   }
+
   .form-section {
     background-image: url(/images/contact-form-desktop-background.png);
     background-repeat: no-repeat;
     background-size: 100%;
     margin-bottom: 30px;
   }
+
   .form-section input {
     border-radius: 2px;
-    border: 1px solid #CFD8DC;
+    border: 1px solid #cfd8dc;
     width: 447px;
   }
+
   .form-section textarea {
     border-radius: 2px;
-    width:447px;
+    width: 447px;
   }
+
   .form-section button {
     margin-left: 160px;
   }
-  
+
   .about-paragraph {
     width: 447px;
     font-size: 16px;
   }
-  
+
   .labels h2 {
     font-size: 40px;
     position: relative;
     right: 70px;
   }
+
   .work-load {
     position: relative;
     right: 55px;
-    
   }
+
   .work-load .canopy {
     font-size: 18px;
     position: relative;
-    right:14px;
+    right: 14px;
   }
+
   .work-load .back-end {
     font-size: 18px;
     width: 130px;
     font-weight: 400;
   }
+
   .work-load .year {
     font-size: 18px;
     font-weight: 400;
   }
+
   .labels .paragraph {
     font-size: 16px;
     width: 340px;
@@ -770,197 +807,213 @@ label {
     position: relative;
     right: 63px;
   }
+
   .labels .skills {
     position: relative;
     right: 65px;
   }
+
   .labels .project-button {
     position: relative;
     right: 50px;
     top: 15px;
   }
+
   .canopy-1,
   .back-1,
   .paragraph-1 {
     display: none;
   }
-  .desktop-paragraph ,
-.facebook,
-.front-end{
-  display: inline;
-}
 
+  .desktop-paragraph,
+  .facebook,
+  .front-end {
+    display: inline;
+  }
 
-.labels-2 h2 {
-  font-size: 32px;
-  width: 300px;
-  margin-left: 68px;
-}
-.work-two {
-  position: relative;
-  left: 70px;
+  .labels-2 h2 {
+    font-size: 32px;
+    width: 300px;
+    margin-left: 68px;
+  }
 
-}
-.work-two .facebook {
-  font-size: 18px;
-  font-family: 'Poppins', sans-serif;
-  line-height: 16px;
-  font-weight: 600;
-  font-style: normal;
-  color: #344563;
-}
-.work-two .front-end {
-  font-size: 18px;
-  color: #7a869a;
-  line-height: 16px;
-  font-weight: 400;
-  font-style: normal;
-  font-family: 'Poppins', sans-serif;
-}
-.work-two .year{
-  font-size: 18px;
-  font-weight: 400;
-}
-.desktop-paragraph {
-  font-size: 16px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #344563;
-  position: relative;
-  left: 70px;
-  top: 10px;
-}
-.labels-2 .skills {
-  position: relative;
-  left: 50px;
-  top: 19px;
-  
-}
-.labels-2 .project-button {
-  position: relative;
-  left: 60px;
-  top: 24px;
-}
-.facebook2,
-.front-end2,
-.desktop-paragraph2,
-.header-facebook {
-  display: inline;
-}
-.labels-3 h2 {
-  font-size: 40px;
-  font-weight: 700;
-  position: relative;
-  right: 30px;
-}
-.work-three {
-  position: relative;
-  right: 30px;
-}
-.work-three .facebook2 {
-  font-size: 18px;
-  font-family: 'Poppins', sans-serif;
-  line-height: 16px;
-  font-weight: 600;
-  font-style: normal;
-  color: #344563;
-}
-.work-three .front-end2 {
-  font-size: 18px;
-  color: #7a869a;
-  line-height: 16px;
-  font-weight: 400;
-  font-style: normal;
-  font-family: 'Poppins', sans-serif;
+  .work-two {
+    position: relative;
+    left: 70px;
+  }
 
-}
-.work-three .year {
-  font-size: 18px;
-  font-weight: 400;
+  .work-two .facebook {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 16px;
+    font-weight: 600;
+    font-style: normal;
+    color: #344563;
+  }
 
-}
-.desktop-paragraph2 {
-  font-size: 16px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #344563;
-  position: relative;
-  right: 30px;
-  top: 15px;
-}
-.labels-3 .skills {
-  position: relative;
-  right: 35px;
-  top: 25px;
-}
-.labels-3 .project-button {
-  position: relative;
-  right: 30px;
-  top: 30px;
-}
-.headerz,
-.uber,
-.year-1,
-.desktop-paragraph3,
-.lead-dev {
-  display: inline;
-}
-.labels-4 h2 {
-  font-size: 40px;
-  position: relative;
-  left: 25px;
-}
-.work-four {
-  position: relative;
-  left:30px;
-}
-.work-four .uber {
-  font-size: 19px;
-  font-family: 'Poppins', sans-serif;
-  line-height: 16px;
-  font-weight: 600;
-  font-style: normal;
-  color: #344563;
-}
-.work-four .lead-dev ,
-.work-four .year-1 {
-  font-size: 18px;
-  color: #7a869a;
-  line-height: 16px;
-  font-weight: 400;
-  font-style: normal;
-  font-family: 'Poppins', sans-serif;
-}
-.desktop-paragraph3 {
-  font-size: 16px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #344563;
-  position: relative;
-  top: 15px;
-  left: 25px;
-}
-.labels-4 .skills {
-  position: relative;
-  left: 20px;
-  top: 25px;
-}
-.labels-4 .project-button {
-  position: relative;
-  left: 30px;
-  top: 30px;
+  .work-two .front-end {
+    font-size: 18px;
+    color: #7a869a;
+    line-height: 16px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+  }
 
-}
+  .work-two .year {
+    font-size: 18px;
+    font-weight: 400;
+  }
 
+  .desktop-paragraph {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #344563;
+    position: relative;
+    left: 70px;
+    top: 10px;
+  }
 
+  .labels-2 .skills {
+    position: relative;
+    left: 50px;
+    top: 19px;
+  }
 
+  .labels-2 .project-button {
+    position: relative;
+    left: 60px;
+    top: 24px;
+  }
+
+  .facebook2,
+  .front-end2,
+  .desktop-paragraph2,
+  .header-facebook {
+    display: inline;
+  }
+
+  .labels-3 h2 {
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    right: 30px;
+  }
+
+  .work-three {
+    position: relative;
+    right: 30px;
+  }
+
+  .work-three .facebook2 {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 16px;
+    font-weight: 600;
+    font-style: normal;
+    color: #344563;
+  }
+
+  .work-three .front-end2 {
+    font-size: 18px;
+    color: #7a869a;
+    line-height: 16px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .work-three .year {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .desktop-paragraph2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    position: relative;
+    right: 30px;
+    top: 15px;
+  }
+
+  .labels-3 .skills {
+    position: relative;
+    right: 35px;
+    top: 25px;
+  }
+
+  .labels-3 .project-button {
+    position: relative;
+    right: 30px;
+    top: 30px;
+  }
+
+  .headerz,
+  .uber,
+  .year-1,
+  .desktop-paragraph3,
+  .lead-dev {
+    display: inline;
+  }
+
+  .labels-4 h2 {
+    font-size: 40px;
+    position: relative;
+    left: 25px;
+  }
+
+  .work-four {
+    position: relative;
+    left: 30px;
+  }
+
+  .work-four .uber {
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 16px;
+    font-weight: 600;
+    font-style: normal;
+    color: #344563;
+  }
+
+  .work-four .lead-dev,
+  .work-four .year-1 {
+    font-size: 18px;
+    color: #7a869a;
+    line-height: 16px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .desktop-paragraph3 {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #344563;
+    position: relative;
+    top: 15px;
+    left: 25px;
+  }
+
+  .labels-4 .skills {
+    position: relative;
+    left: 20px;
+    top: 25px;
+  }
+
+  .labels-4 .project-button {
+    position: relative;
+    left: 30px;
+    top: 30px;
+  }
 }
