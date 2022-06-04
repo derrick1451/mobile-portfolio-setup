@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio Setup And Mobile Version Skeleton
+# Portfolio Setup Desktop and Mobile Version Skeleton
 
-> this is the complete mobile version of my portfolio website with an updated form section
+> this is the complete desktop and mobile version of my portfolio website
 
 
 ## Built With
