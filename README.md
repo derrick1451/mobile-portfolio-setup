@@ -11,6 +11,8 @@
 - CSS
 - Vs code
 
+## Live Demo
+https://derrick1451.github.io/mobile-portfolio-setup/
 
 ## Getting Started
 
