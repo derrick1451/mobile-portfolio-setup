@@ -75,7 +75,7 @@
 .main-section {
   display: flex;
   flex-direction: column;
-  background-image: url(/images/header.png);
+  background-image: url(images/header.png);
   height: 100%;
   width: 100%;
   background-repeat: no-repeat;
@@ -595,7 +595,7 @@ label {
   }
 
   .main-section {
-    background-image: url(/images/desktop-header.png);
+    background-image: url(images/desktop-header.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -756,7 +756,7 @@ label {
   }
 
   .form-section {
-    background-image: url(/images/contact-form-desktop-background.png);
+    background-image: url(images/contact-form-desktop-background.png);
     background-repeat: no-repeat;
     background-size: 100%;
     margin-bottom: 30px;
