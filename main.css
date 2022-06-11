@@ -9,7 +9,6 @@
 
 .wrapper {
   height: 718px;
-  border-radius: 20px;
 }
 
 .nav-bar a {
@@ -79,6 +78,7 @@
   height: 100%;
   width: 100%;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .desktop-image {
@@ -171,6 +171,7 @@
   font-weight: 600;
   font-style: normal;
   color: #344563;
+  margin-right: 5px;
 }
 
 .dot {
@@ -632,15 +633,15 @@ label {
 
   .projects {
     display: grid;
-    grid-template-columns: 80%;
+    grid-template-columns: 90%;
     margin-top: 80px;
     max-width: 100%;
     column-gap: 30px;
   }
 
   .work {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     background-color: #fff;
   }
 
@@ -650,25 +651,9 @@ label {
 
   .desktop-image {
     display: inline;
-    width: 544px;
+    width: 100%;
     padding: 10px;
     margin-right: 190px;
-    transition: 2s;
-  }
-
-  .desktop-image:hover {
-    transform: scale(1.1);
-  }
-
-  .reverse {
-    flex-direction: row-reverse;
-  }
-
-  .desktop {
-    display: inline;
-    width: 500px;
-    padding: 15px;
-    margin-left: 100px;
   }
 
   .work-section h2 {
@@ -679,10 +664,139 @@ label {
     bottom: 15px;
   }
 
+  .about-paragraph {
+    width: 80%;
+    font-size: 16px;
+  }
+
+  .labels h2 {
+    font-size: 40px;
+  }
+
+  .work-load .canopy {
+    font-size: 18px;
+  }
+
+  .work-load .back-end {
+    font-size: 18px;
+    width: 130px;
+    font-weight: 400;
+  }
+
+  .work-load .year {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .canopy-1,
+  .back-1,
+  .paragraph-1 {
+    display: none;
+  }
+
+  .desktop-paragraph,
+  .facebook,
+  .front-end {
+    display: inline;
+  }
+
+  .facebook2,
+  .front-end2,
+  .desktop-paragraph2,
+  .header-facebook {
+    display: inline;
+  }
+
+  .labels-3 h2 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .work-three .facebook2 {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 16px;
+    font-weight: 600;
+    font-style: normal;
+    color: #344563;
+  }
+
+  .work-three .front-end2 {
+    font-size: 18px;
+    color: #7a869a;
+    line-height: 16px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .work-three .year {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .desktop-paragraph2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .labels-3 .project-button {
+    background-color: #4053fc;
+    color: #fff;
+  }
+
+  .headerz,
+  .uber,
+  .year-1,
+  .desktop-paragraph3,
+  .lead-dev {
+    display: inline;
+  }
+
+  .labels-4 h2 {
+    font-size: 40px;
+  }
+
+  .work-four .uber {
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 16px;
+    font-weight: 600;
+    font-style: normal;
+    color: #344563;
+  }
+
+  .work-four .lead-dev,
+  .work-four .year-1 {
+    font-size: 18px;
+    color: #7a869a;
+    line-height: 16px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .desktop-paragraph3 {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .move {
+    margin-left: 10px;
+  }
+
   .about-me {
     width: 100%;
     display: grid;
-    grid-template-columns: 30% 40%;
+    grid-template-columns: 50% 50%;
     justify-content: space-evenly;
     height: auto;
     margin-top: 10vh;
@@ -775,257 +889,5 @@ label {
 
   .form-section button {
     margin-left: 160px;
-  }
-
-  .about-paragraph {
-    width: 447px;
-    font-size: 16px;
-  }
-
-  .labels h2 {
-    font-size: 40px;
-    position: relative;
-    right: 70px;
-  }
-
-  .work-load {
-    position: relative;
-    right: 55px;
-  }
-
-  .work-load .canopy {
-    font-size: 18px;
-    position: relative;
-    right: 14px;
-  }
-
-  .work-load .back-end {
-    font-size: 18px;
-    width: 130px;
-    font-weight: 400;
-  }
-
-  .work-load .year {
-    font-size: 18px;
-    font-weight: 400;
-  }
-
-  .labels .paragraph {
-    font-size: 16px;
-    width: 340px;
-    height: auto;
-    position: relative;
-    right: 63px;
-  }
-
-  .labels .skills {
-    position: relative;
-    right: 65px;
-  }
-
-  .labels .project-button {
-    position: relative;
-    right: 50px;
-    top: 15px;
-  }
-
-  .canopy-1,
-  .back-1,
-  .paragraph-1 {
-    display: none;
-  }
-
-  .desktop-paragraph,
-  .facebook,
-  .front-end {
-    display: inline;
-  }
-
-  .labels-2 h2 {
-    font-size: 32px;
-    width: 300px;
-    margin-left: 68px;
-  }
-
-  .work-two {
-    position: relative;
-    left: 70px;
-  }
-
-  .work-two .facebook {
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
-    line-height: 16px;
-    font-weight: 600;
-    font-style: normal;
-    color: #344563;
-  }
-
-  .work-two .front-end {
-    font-size: 18px;
-    color: #7a869a;
-    line-height: 16px;
-    font-weight: 400;
-    font-style: normal;
-    font-family: 'Poppins', sans-serif;
-  }
-
-  .work-two .year {
-    font-size: 18px;
-    font-weight: 400;
-  }
-
-  .desktop-paragraph {
-    font-size: 16px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    color: #344563;
-    position: relative;
-    left: 70px;
-    top: 10px;
-  }
-
-  .labels-2 .skills {
-    position: relative;
-    left: 50px;
-    top: 19px;
-  }
-
-  .labels-2 .project-button {
-    position: relative;
-    left: 60px;
-    top: 24px;
-  }
-
-  .facebook2,
-  .front-end2,
-  .desktop-paragraph2,
-  .header-facebook {
-    display: inline;
-  }
-
-  .labels-3 h2 {
-    font-size: 40px;
-    font-weight: 700;
-    position: relative;
-    right: 30px;
-  }
-
-  .work-three {
-    position: relative;
-    right: 30px;
-  }
-
-  .work-three .facebook2 {
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
-    line-height: 16px;
-    font-weight: 600;
-    font-style: normal;
-    color: #344563;
-  }
-
-  .work-three .front-end2 {
-    font-size: 18px;
-    color: #7a869a;
-    line-height: 16px;
-    font-weight: 400;
-    font-style: normal;
-    font-family: 'Poppins', sans-serif;
-  }
-
-  .work-three .year {
-    font-size: 18px;
-    font-weight: 400;
-  }
-
-  .desktop-paragraph2 {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #344563;
-    position: relative;
-    right: 30px;
-    top: 15px;
-  }
-
-  .labels-3 .skills {
-    position: relative;
-    right: 35px;
-    top: 25px;
-  }
-
-  .labels-3 .project-button {
-    position: relative;
-    right: 30px;
-    top: 30px;
-    background-color: #4053fc;
-    color: #fff;
-  }
-
-  .headerz,
-  .uber,
-  .year-1,
-  .desktop-paragraph3,
-  .lead-dev {
-    display: inline;
-  }
-
-  .labels-4 h2 {
-    font-size: 40px;
-    position: relative;
-    left: 25px;
-  }
-
-  .work-four {
-    position: relative;
-    left: 30px;
-  }
-
-  .work-four .uber {
-    font-size: 19px;
-    font-family: 'Poppins', sans-serif;
-    line-height: 16px;
-    font-weight: 600;
-    font-style: normal;
-    color: #344563;
-  }
-
-  .work-four .lead-dev,
-  .work-four .year-1 {
-    font-size: 18px;
-    color: #7a869a;
-    line-height: 16px;
-    font-weight: 400;
-    font-style: normal;
-    font-family: 'Poppins', sans-serif;
-  }
-
-  .desktop-paragraph3 {
-    font-size: 16px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    color: #344563;
-    position: relative;
-    top: 15px;
-    left: 25px;
-  }
-
-  .labels-4 .skills {
-    position: relative;
-    left: 20px;
-    top: 25px;
-  }
-
-  .labels-4 .project-button {
-    position: relative;
-    left: 30px;
-    top: 30px;
   }
 }
