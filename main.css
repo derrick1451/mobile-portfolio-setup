@@ -54,7 +54,6 @@ a {
   z-index: 3;
   backdrop-filter: blur(6px);
   mix-blend-mode: multiply;
-
 }
 
 .pop-up li {
