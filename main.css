@@ -8,20 +8,70 @@
 }
 
 .wrapper {
-  height: 718px;
+  height: 100%;
+  width: 100vw;
 }
 
-.nav-bar a {
-  display: flex;
+.desktop-nav {
+  display: none;
+}
+
+header {
+  background-color: #fff;
+}
+
+li {
+  list-style: none;
+}
+
+a {
   text-decoration: none;
+}
+
+.pop-up {
+  display: none;
+  transition: 0.4s;
+}
+
+.pop-up li a {
+  text-decoration: none;
+  font-family: 'poppins', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #fff;
+}
+
+.active-pop-up {
+  display: block;
+  height: 5010px;
+  width: 100vw;
+  position: absolute;
+  background-color: #6070ff;
+  top: 0;
+  left: 0;
+  padding: 50px 20px;
+  transition: 0.4s;
+  z-index: 3;
+  backdrop-filter: blur(6px);
+  mix-blend-mode: multiply;
+}
+
+.pop-up li {
+  list-style: none;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.close-icon {
+  display: none;
+}
+
+.nav-bar {
+  min-height: 70px;
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
-}
-
-.nav-bar ul {
-  display: none;
-  list-style: none;
+  padding: 0 24px;
 }
 
 .logo {
@@ -47,6 +97,16 @@
   color: #172b4d;
   padding-left: 30px;
   margin-top: 80px;
+}
+
+.close {
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 20px;
+  z-index: 6;
+  color: #fff;
 }
 
 .intro-1 {
@@ -75,10 +135,9 @@
   display: flex;
   flex-direction: column;
   background-image: url(images/header.png);
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: 100vw;
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .desktop-image {
@@ -451,7 +510,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 800px;
   background-color: #6070ff;
   border-top-left-radius: 100px;
   width: 100%;
@@ -569,30 +627,15 @@ label {
     background-color: #e5e5e5e5;
   }
 
-  .nav-bar {
+  .desktop-nav {
     display: flex;
     justify-content: space-between;
-    background-color: #fff;
+    align-items: center;
+    gap: 50px;
   }
 
-  .nav-bar img {
+  .loose {
     display: none;
-  }
-
-  .nav-bar ul {
-    display: flex;
-    list-style: none;
-    margin-right: 140px;
-  }
-
-  .logo {
-    margin-left: 90px;
-    font-size: 18px;
-    transition: 2s;
-  }
-
-  .logo:hover {
-    transform: scale(1.2);
   }
 
   .main-section {
@@ -604,6 +647,7 @@ label {
     align-items: center;
     background-color: #fff;
     border-bottom-left-radius: 90px;
+    height: 100vh;
   }
 
   .main-section h1 {
