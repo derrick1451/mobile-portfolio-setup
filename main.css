@@ -7,7 +7,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
-body {
+.wrapper {
   height: 100%;
   width: 100vw;
 }
@@ -51,6 +51,10 @@ a {
   left: 0;
   padding: 50px 20px;
   transition: 0.4s;
+  z-index: 3;
+  backdrop-filter: blur(6px);
+  mix-blend-mode: multiply;
+
 }
 
 .pop-up li {
@@ -102,7 +106,7 @@ a {
   top: 20px;
   right: 30px;
   font-size: 20px;
-  z-index: 2;
+  z-index: 6;
   color: #fff;
 }
 
@@ -132,10 +136,9 @@ a {
   display: flex;
   flex-direction: column;
   background-image: url(images/header.png);
-  height: 100vh;
+  height: auto;
   width: 100vw;
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .desktop-image {
@@ -645,6 +648,7 @@ label {
     align-items: center;
     background-color: #fff;
     border-bottom-left-radius: 90px;
+    height: 100vh;
   }
 
   .main-section h1 {
