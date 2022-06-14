@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio Setup Desktop and Mobile Version Skeleton
+# Portfolio Mobile menu
 
 > this is the complete desktop and mobile version of my portfolio website
 
@@ -9,6 +9,7 @@
 
 - HTML
 - CSS
+- Javascript
 - Vs code
 
 ## Live Demo
@@ -31,6 +32,11 @@ $ cd mobile-portfolio-setup
 - GitHub: [@githubhandle](https://github.com/derrick1451)
 - Twitter: [@twitterhandle](https://twitter.com/derrickHayle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/okongo-derrick-a0147622b/)
+
+**Author2**
+- GitHub: (https://github.com/Piercel2022)
+- Twitter: (https://twitter.com/pier_celestin)
+- LinkedIn: (https://linkedin.com/in/piercelestinmax/)
 
 ## 🤝 Contributing
 
