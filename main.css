@@ -43,7 +43,7 @@ a {
 
 .active-pop-up {
   display: block;
-  height: 5200px;
+  height: 100%;
   width: 100vw;
   position: absolute;
   background-color: #6070ff;
